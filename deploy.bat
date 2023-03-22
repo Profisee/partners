@@ -2,7 +2,7 @@ SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\22.2.0
 SET MyCLU=Profisee.MasterDataMaestro.Utilities.exe
 SET myAppURL=/URL:https://YOUR_URL.com/contoso/
 ::SET myAppURL=/URL:https://profiseecloud.com/contoso/ -- EXAMPLE
-SET myClientID=/CLIENTID:101ae9463c3c4b9f91fc17a3bdf719da
+SET myClientID=/CLIENTID:HEREYOURAPIKKEY
 SET MyPath=/FILE:"C:\Temp\contoso\
 
 cd %MyCLUPath%
