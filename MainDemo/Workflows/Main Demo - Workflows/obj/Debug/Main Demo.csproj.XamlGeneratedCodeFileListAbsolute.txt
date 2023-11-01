@@ -1,0 +1,7 @@
+obj\Debug\_Main Demo.g.cs
+obj\Debug\ProfiseeWorkflowActivity1.g.cs
+obj\Debug\ProfiseeTemplateWorkflowActivity1.g.cs
+obj\Debug\Main_Demo_ProfiseeWorkflowActivity1_BeforeInitializeComponentHelper.cs
+obj\Debug\Main_Demo_ProfiseeTemplateWorkflowActivity1_BeforeInitializeComponentHelper.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeWorkflowActivity1_CompiledExpressionRoot.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeTemplateWorkflowActivity1_CompiledExpressionRoot.cs

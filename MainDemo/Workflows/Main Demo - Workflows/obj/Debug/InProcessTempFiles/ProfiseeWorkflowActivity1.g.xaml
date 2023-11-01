@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<m:ProfiseeWorkflowActivity1 sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ProjectTemplate.Activity1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:m="clr-namespace:Main_Demo;assembly=Main Demo" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ppcc="clr-namespace:Profisee.Platform.CoreData.Contracts;assembly=Profisee.Platform.CoreData.Contracts" xmlns:ppwas="clr-namespace:Profisee.Platform.Workflow.Activities.Support;assembly=Profisee.Platform.Workflow.Activities" xmlns:ppwat="clr-namespace:Profisee.Platform.Workflow.Activities.Tasks;assembly=Profisee.Platform.Workflow.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>Profisee.Platform.CoreData.Contracts</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualStudio.CoreUtility</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Channels</AssemblyReference>
+      <AssemblyReference>System.Web</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>Antlr4.Runtime</AssemblyReference>
+      <AssemblyReference>AWS.Logger.Core</AssemblyReference>
+      <AssemblyReference>AWS.Logger.SeriLog</AssemblyReference>
+      <AssemblyReference>AWSSDK.CloudWatchLogs</AssemblyReference>
+      <AssemblyReference>AWSSDK.Core</AssemblyReference>
+      <AssemblyReference>IdentityModel</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Authentication.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Authentication.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Authorization</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Authorization.Policy</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Hosting.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Hosting.Server.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Http.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Http</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Http.Extensions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Http.Features</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Mvc.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Mvc.ApiExplorer</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Mvc.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Mvc.DataAnnotations</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.OData</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.ResponseCaching.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Routing.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.Routing</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.StaticFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.AspNetCore.WebUtilities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>Microsoft.DotNet.PlatformAbstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Caching.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Caching.Memory</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Configuration.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Configuration.Binder</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Configuration</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyInjection</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.FileProviders.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.FileProviders.Embedded</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Hosting.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Localization.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Localization</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Logging.Abstractions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Logging</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.ObjectPool</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Options.ConfigurationExtensions</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Options</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Primitives</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.WebEncoders</AssemblyReference>
+      <AssemblyReference>Microsoft.Net.Http.Headers</AssemblyReference>
+      <AssemblyReference>Microsoft.OData.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.OData.Edm</AssemblyReference>
+      <AssemblyReference>Microsoft.OpenApi</AssemblyReference>
+      <AssemblyReference>Microsoft.Spatial</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>Polly</AssemblyReference>
+      <AssemblyReference>Profisee.Common.EventProcessing</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.CoreData.Contracts</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Services.AddressVerification.Contracts</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Services.Matching.Contracts</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Utilities.Logging</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Utilities.ODataTranslator</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Utilities.ProfiseeExpressionTranslatorCore</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Workflow.Activities</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Workflow.Common</AssemblyReference>
+      <AssemblyReference>Profisee.Platform.Workflow.Contracts</AssemblyReference>
+      <AssemblyReference>Serilog.AspNetCore</AssemblyReference>
+      <AssemblyReference>Serilog</AssemblyReference>
+      <AssemblyReference>Serilog.Enrichers.Environment</AssemblyReference>
+      <AssemblyReference>Serilog.Enrichers.Thread</AssemblyReference>
+      <AssemblyReference>Serilog.Extensions.Hosting</AssemblyReference>
+      <AssemblyReference>Serilog.Extensions.Logging</AssemblyReference>
+      <AssemblyReference>Serilog.Filters.Expressions</AssemblyReference>
+      <AssemblyReference>Serilog.Formatting.Compact</AssemblyReference>
+      <AssemblyReference>Serilog.Settings.AppSettings</AssemblyReference>
+      <AssemblyReference>Serilog.Settings.Configuration</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.Async</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.AzureAnalytics</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.Console</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.Debug</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.File</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.MSSqlServer</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.PeriodicBatching</AssemblyReference>
+      <AssemblyReference>Serilog.Sinks.Seq</AssemblyReference>
+      <AssemblyReference>SerilogMetrics</AssemblyReference>
+      <AssemblyReference>Superpower</AssemblyReference>
+      <AssemblyReference>Swashbuckle.AspNetCore.Annotations</AssemblyReference>
+      <AssemblyReference>Swashbuckle.AspNetCore.Swagger</AssemblyReference>
+      <AssemblyReference>Swashbuckle.AspNetCore.SwaggerGen</AssemblyReference>
+      <AssemblyReference>Swashbuckle.AspNetCore.SwaggerUI</AssemblyReference>
+      <AssemblyReference>System.Buffers</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Annotations</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Numerics.Vectors</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.Unsafe</AssemblyReference>
+      <AssemblyReference>System.Security.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Http</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.NetTcp</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Extensions</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>Profisee.Services.Sdk.Workflow.ProjectTemplate</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <m:ProfiseeWorkflowActivity1.Implementation>
+    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Boolean" Name="WasApproved" />
+      </Sequence.Variables>
+      <ppwas:InitiateWorkflow InitiatingUser="{x:Null}" Entity="Product" sap2010:WorkflowViewState.IdRef="InitiateWorkflow_2">
+        <ppwas:InitiateWorkflow.RecordDataContext>
+          <InArgument x:TypeArguments="ppcc:RecordDataContext">
+            <mca:CSharpValue x:TypeArguments="ppcc:RecordDataContext">RecordDataContext</mca:CSharpValue>
+          </InArgument>
+        </ppwas:InitiateWorkflow.RecordDataContext>
+      </ppwas:InitiateWorkflow>
+      <ppwat:ContributionTask AssignmentGroup="{x:Null}" CompletedAssignments="{x:Null}" NotificationDescription="{x:Null}" OverrideAssignments="{x:Null}" TaskDescription="{x:Null}" TaskId="{x:Null}" TaskStatus="{x:Null}" sap2010:WorkflowViewState.IdRef="ContributionTask_2">
+        <ppwat:ContributionTask.RecordDataContext>
+          <InArgument x:TypeArguments="ppcc:RecordDataContext">
+            <mca:CSharpValue x:TypeArguments="ppcc:RecordDataContext">RecordDataContext</mca:CSharpValue>
+          </InArgument>
+        </ppwat:ContributionTask.RecordDataContext>
+      </ppwat:ContributionTask>
+      <ppwat:ApprovalTask AssignmentGroup="{x:Null}" CompletedAssignments="{x:Null}" NotificationDescription="{x:Null}" OverrideAssignments="{x:Null}" TaskDescription="{x:Null}" TaskId="{x:Null}" TaskStatus="{x:Null}" sap2010:WorkflowViewState.IdRef="ApprovalTask_2">
+        <ppwat:ApprovalTask.Approved>
+          <OutArgument x:TypeArguments="x:Boolean">
+            <mca:CSharpReference x:TypeArguments="x:Boolean">WasApproved</mca:CSharpReference>
+          </OutArgument>
+        </ppwat:ApprovalTask.Approved>
+        <ppwat:ApprovalTask.RecordDataContext>
+          <InArgument x:TypeArguments="ppcc:RecordDataContext">
+            <mca:CSharpValue x:TypeArguments="ppcc:RecordDataContext">RecordDataContext</mca:CSharpValue>
+          </InArgument>
+        </ppwat:ApprovalTask.RecordDataContext>
+      </ppwat:ApprovalTask>
+      <sads:DebugSymbol.Symbol>d05DOlxET1xSZXBvc1xTZGtcV29ya2Zsb3dcV29ya2Zsb3dQcm9qZWN0VGVtcGxhdGVcUHJvZmlzZWVXb3JrZmxvd0FjdGl2aXR5LnhhbWwJpwEDxgEOAgEBqwEFsQEeAgENsgEFuAEeAgEJuQEFxAEaAgECqwE+qwFHAgERrgELrgFoAgEOtQELtQFoAgEKwQELwQFoAgEGvAELvAFdAgED</sads:DebugSymbol.Symbol>
+    </Sequence>
+  </m:ProfiseeWorkflowActivity1.Implementation>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="InitiateWorkflow_2" sap:VirtualizedContainerService.HintSize="260,88" />
+      <sap2010:ViewStateData Id="ContributionTask_2" sap:VirtualizedContainerService.HintSize="260,88" />
+      <sap2010:ViewStateData Id="ApprovalTask_2" sap:VirtualizedContainerService.HintSize="260,114.4" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="282.4,495.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ProjectTemplate.Activity1_1" sap:VirtualizedContainerService.HintSize="322.4,575.2" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</m:ProfiseeWorkflowActivity1>

@@ -1,0 +1,29 @@
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Main Demo.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Main Demo.pdb
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Profisee.Platform.CoreData.Contracts.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Profisee.Platform.Services.AddressVerification.Contracts.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Profisee.Platform.Services.Matching.Contracts.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Profisee.Platform.Workflow.Activities.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Profisee.Platform.Workflow.Common.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Profisee.Platform.Workflow.Contracts.dll
+C:\Users\jayadh\source\repos\Main Demo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.csproj.AssemblyReference.cache
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\ProfiseeWorkflowActivity1.g.xaml
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\ProfiseeTemplateWorkflowActivity1.g.xaml
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeWorkflowActivity1_BeforeInitializeComponentHelper.txt
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeTemplateWorkflowActivity1_BeforeInitializeComponentHelper.txt
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\_Main Demo.g.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\ProfiseeWorkflowActivity1.g.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\ProfiseeTemplateWorkflowActivity1.g.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeWorkflowActivity1_BeforeInitializeComponentHelper.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeTemplateWorkflowActivity1_BeforeInitializeComponentHelper.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.csproj.XamlPass2Flag.txt
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.dll
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.pdb
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeWorkflowActivity1_CompiledExpressionRoot.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main_Demo_ProfiseeTemplateWorkflowActivity1_CompiledExpressionRoot.cs
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.csproj.CoreCompileInputs.cache
+C:\Users\jayadh\source\repos\Main Demo\obj\Debug\Main Demo.csproj.CopyComplete

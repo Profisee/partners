@@ -1,0 +1,4 @@
+obj\Debug\ProfiseeWorkflowActivity1.g.xaml
+obj\Debug\ProfiseeTemplateWorkflowActivity1.g.xaml
+obj\Debug\Main_Demo_ProfiseeWorkflowActivity1_BeforeInitializeComponentHelper.txt
+obj\Debug\Main_Demo_ProfiseeTemplateWorkflowActivity1_BeforeInitializeComponentHelper.txt
