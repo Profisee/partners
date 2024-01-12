@@ -18,22 +18,16 @@ B) If your target instance has no entities already created, then skip this step 
 C) Solution Deployment
    1. Open a command prompt as an administrator.
    2. Update the commands below below with your details and execute them in the CLU.
+   that there are circular dependencies between some object types and you may see warnings when first importing Forms and Matching Strategies.  To overcome this the script imports those objects a second time.
 
-      SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\23.2.0
+      SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\**23.2.0**
       SET MyCLU=Profisee.MasterDataMaestro.Utilities.exe
       SET myAppURL=/URL:https://**server**/**instance**/
       SET myClientID=/CLIENTID:**clientid**
-      SET MyPath=/FILE:"INSERTYOURFOLDERPATHOFTHEUNZIPPEDDEPLOYMENTFILE\
+      SET MyPath=/FILE:"**PATHTOTHELOCALREPOSITORY**\
+      cd %MyCLUPath%
+      SET MyType=ALL
 
-SET myAppURL=/URL:https://server/profiseeinstancename/
-SET myClientID=/CLIENTID:unattendedauthenticationclientid
-SET MyPath=/FILE:"c:\mypath\Customer MDM Sample - Public\
-
-cd %MyCLUPath%
-
-SET MyType=MODEL
-SET MyFolder=%MyPath%01-%MyType%
-%MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:%MyType% %MyFolder%"
-
-
-   
+      %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:ALL %MyPath%"
+      %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:FORMS %MyPath%"
+      %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:MATCHING %MyPath%"
