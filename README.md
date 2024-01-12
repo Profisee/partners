@@ -17,6 +17,23 @@ B) If your target instance has no entities already created, then skip this step 
        
 C) Solution Deployment
    1. Open a command prompt as an administrator.
-   2. Go the folder where the CLU is located.
-   3. more to come...
+   2. Update the commands below below with your details and execute them in the CLU.
+
+      SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\23.2.0
+      SET MyCLU=Profisee.MasterDataMaestro.Utilities.exe
+      SET myAppURL=/URL:https://**server**/**instance**/
+      SET myClientID=/CLIENTID:**clientid**
+      SET MyPath=/FILE:"INSERTYOURFOLDERPATHOFTHEUNZIPPEDDEPLOYMENTFILE\
+
+SET myAppURL=/URL:https://server/profiseeinstancename/
+SET myClientID=/CLIENTID:unattendedauthenticationclientid
+SET MyPath=/FILE:"c:\mypath\Customer MDM Sample - Public\
+
+cd %MyCLUPath%
+
+SET MyType=MODEL
+SET MyFolder=%MyPath%01-%MyType%
+%MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:%MyType% %MyFolder%"
+
+
    
