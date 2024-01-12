@@ -31,3 +31,5 @@ C) Solution Deployment
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:ALL %MyPath%"
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:FORMS %MyPath%"
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:MATCHING %MyPath%"
+
+Please share your feedback with lee.gregory@profisee.com and moacyr.passador@profisee.com 
