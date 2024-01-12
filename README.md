@@ -21,6 +21,7 @@ C) Solution Deployment
    3. There are circular dependencies between some object types and you may see warnings when first importing Forms and Matching Strategies.  To overcome this the script imports those objects a second time.
 
       SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\**23.2.0**
+      
       SET MyCLU=Profisee.MasterDataMaestro.Utilities.exe
       SET myAppURL=/URL:https://**server**/**instance**/
       SET myClientID=/CLIENTID:**clientid**
