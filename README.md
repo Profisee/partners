@@ -18,7 +18,7 @@ B) If your target instance has no entities already created, then skip this step 
 C) Solution Deployment
    1. Open a command prompt as an administrator.
    2. Update the commands below below with your details and execute them in the CLU.
-   that there are circular dependencies between some object types and you may see warnings when first importing Forms and Matching Strategies.  To overcome this the script imports those objects a second time.
+   3. There are circular dependencies between some object types and you may see warnings when first importing Forms and Matching Strategies.  To overcome this the script imports those objects a second time.
 
       SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\**23.2.0**
       SET MyCLU=Profisee.MasterDataMaestro.Utilities.exe
@@ -27,7 +27,6 @@ C) Solution Deployment
       SET MyPath=/FILE:"**PATHTOTHELOCALREPOSITORY**\
       cd %MyCLUPath%
       SET MyType=ALL
-
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:ALL %MyPath%"
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:FORMS %MyPath%"
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:MATCHING %MyPath%"
