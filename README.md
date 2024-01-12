@@ -23,13 +23,21 @@ C) Solution Deployment
       SET MyCLUPath=C:\Program Files\Profisee\Master Data Maestro Utilities\**23.2.0**
       
       SET MyCLU=Profisee.MasterDataMaestro.Utilities.exe
+      
       SET myAppURL=/URL:https://**server**/**instance**/
+      
       SET myClientID=/CLIENTID:**clientid**
+      
       SET MyPath=/FILE:"**PATHTOTHELOCALREPOSITORY**\
+      
       cd %MyCLUPath%
+      
       SET MyType=ALL
+      
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:ALL %MyPath%"
+      
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:FORMS %MyPath%"
+      
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:MATCHING %MyPath%"
 
 Please share your feedback with lee.gregory@profisee.com and moacyr.passador@profisee.com 
