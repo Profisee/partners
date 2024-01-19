@@ -1,5 +1,5 @@
 # partners
-Repository to aid you in deploying a demonstration solution to an instance of the Profisee platform.  As a Profisee Partner, we hope you will use this repository to learn how to use and demonstrate Profisee.  You may deploy these assets to any IaaS, PaaS or SaaS environment that you have an admin account for.  Additional information for partners on demonstrating Profisee can be found in Academy.
+Repository to aid you in deploying a demonstration solution to an instance of the Profisee platform.  As a Profisee Partner, we hope you will use this repository to learn how to use and demonstrate Profisee.  You may deploy these assets to any IaaS, PaaS or SaaS environment that you have an admin account for.  Additional information for partners on demonstrating Profisee can be found in Academy.  The solution contains approximately 18k records - please keep that in mind for any Profisee license limits that apply.
 
 A) Preparation for Solution Deployment
    1) Download, Install and Configure Profisee. All the documentation can be found here: https://support.profisee.com/
@@ -13,10 +13,10 @@ A) Preparation for Solution Deployment
   
 B) If your target instance has no entities already created, then skip this step and proceed to the next. 
    1. In Profisee use Administration/Advanced Modeling/Open File and open the model file from your local repository.
-   2. Publish the model to Profisee.  Choose the Merge Models option to keep the existing entities.  (If you choose Replace the Model then your existing entities will be deleted.)
+   2. Publish the model to Profisee manually.  Choose the Merge Models option to keep the existing entities.  (If you choose Replace the Model then your existing entities will be deleted.)
        
 C) Solution Deployment
-   1. Open a command prompt as an administrator.
+   1. Open a Windows command prompt as an administrator.
    2. Update the commands below below with your details and execute them in the CLU.
    3. There are circular dependencies between some object types and you may see warnings when first importing Forms and Matching Strategies.  To overcome this the script imports those objects a second time.
 
@@ -39,5 +39,6 @@ C) Solution Deployment
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:FORMS %MyPath%"
       
       %MyCLU% %myAppURL% %MyClientID% /IMPORT /TYPE:MATCHING %MyPath%"
+
 
 Please share your feedback with lee.gregory@profisee.com and moacyr.passador@profisee.com 
